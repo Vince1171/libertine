@@ -25,12 +25,7 @@ from libertine import utils
 class HostInfo(object):
 
     def select_container_type_by_kernel(self):
-        if self.has_lxd_support():
-            return "lxd"
-        elif self.has_lxc_support():
-            return "lxc"
-        else:
-            return "chroot"
+        return "chroot"
 
     def has_lxc_support(self):
         kernel_release = platform.release().split('.')
