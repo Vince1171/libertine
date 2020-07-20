@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-04-01 13:22+0000\n"
+"PO-Revision-Date: 2020-07-14 18:09+0000\n"
 "Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "libertine/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
@@ -52,32 +52,32 @@ msgstr "SIGINT を受信"
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
-msgstr ""
+msgstr "キーボード割り込み"
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr ""
+msgstr "SIGTERMを受信しました"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "終了"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr ""
+msgstr "未知の {signal} シグナルを受信しました"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
-msgstr ""
+msgstr "ネイティブまたは Libertine コンテナでアプリを起動します"
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
-msgstr ""
+msgstr "コンテナアプリ起動時のコンテナID"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "環境変数を設定"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
@@ -89,35 +89,31 @@ msgstr ""
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr ""
+msgstr "lxc/lxd Libertine コンテナ内でSSHセッションを起動します"
 
 #: ../tools/libertine-shell:43
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container identifier"
-msgstr "コンテナの情報"
+msgstr "コンテナID"
 
 #: ../tools/libertine-shell:45
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container username"
-msgstr "コンテナの情報"
+msgstr "コンテナユーザー名"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr ""
+msgstr "使用するSSH鍵"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr ""
+msgstr "すべての質問にはいで回答する"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
-msgstr ""
+msgstr "{} で鍵ファイルが見つかりません。空にするとデフォルト値が使われます。"
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr ""
+msgstr "{} の公開鍵が見つかりませんでした。"
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
@@ -138,41 +134,43 @@ msgstr ""
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr ""
+msgstr "鍵ファイル {} を {} の接続時に毎回使いますか？[Yn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"sshd が見つかりません。次のコマンドで openssh をインストールできます:\n"
+"→apt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
-msgstr ""
+msgstr "{} は {} コンテナです。本ツールでは lxd または lxc コンテナのみが使用できます。"
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
-msgstr ""
+msgstr "{} コンテナで openssh-server が見つかりませんでした。インストールしますか？[Yn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "openssh-server をインストールできませんでした"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "{} のIPアドレスを取得できませんでした"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"

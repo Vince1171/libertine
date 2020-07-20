@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-06-13 15:24+0000\n"
+"PO-Revision-Date: 2020-06-18 17:25+0000\n"
 "Last-Translator: Alexander Lewandowski <bbarblexi@gmail.com>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports/"
 "libertine/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
@@ -313,8 +313,8 @@ msgid ""
 "Configure archive called with no archive name. See configure --help for "
 "usage."
 msgstr ""
-"Archivkonfiguration wurde ohne Angabe eines Archivnamens aufgerufen. "
-"Verwenden Sie \"configure --help\" zur Anzeige der Verwendungshinweise."
+"'Archiv konfigurieren' wurde ohne Archivnamen aufgerufen. Siehe configure --"
+"help für Informationen zur Nutzung."
 
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
@@ -423,7 +423,7 @@ msgstr "Container-kennung in der Form ([a-z0-9][a-z0-9 + .-] +). Erforderlich."
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
 msgstr ""
-"Art des zu erstellenden Libertine Containers. Entweder 'lxd', 'lxc' oder "
+"Art des zu erstellenden Libertine Containers. Entweder 'LXD', 'LXC' oder "
 "'chroot'."
 
 #: ../tools/libertine-container-manager:474
@@ -447,6 +447,8 @@ msgid ""
 "Add i386 support to amd64 Libertine containers.  This option has no effect "
 "when the Libertine container is i386."
 msgstr ""
+"Hinzufügen von i386 Unterstützung für AMD64 Libertine-Container. Diese "
+"Einstellung hat keine Auswirkung auf i386 Libertine-Container."
 
 #: ../tools/libertine-container-manager:488
 msgid ""
@@ -476,6 +478,8 @@ msgstr "Container-ID. Bei Nichtangabe wird der Standard-Container genutzt."
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
 msgstr ""
+"Zerstörung erzwingen. Erzwingt das anhalten von laufenden Containern vor der "
+"Zerstörung."
 
 #: ../tools/libertine-container-manager:507
 msgid "Install a package or packages in the specified Libertine container."
@@ -527,6 +531,9 @@ msgid ""
 "container's locale and installs necessary language packs if the host's "
 "locale has changed."
 msgstr ""
+"Aktualisieren Sie die Pakete im Libertine-Container. Aktualisiert auch das "
+"Gebietsschema des Containers und installiert die erforderlichen "
+"Sprachpakete, wenn sich das Gebietsschema des Hosts geändert hat."
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
@@ -534,7 +541,7 @@ msgstr "Alle Libertine Container auflisten."
 
 #: ../tools/libertine-container-manager:572
 msgid "List available app launchers in a container."
-msgstr ""
+msgstr "Liste der verfügbaren App-Starter in einem Container."
 
 #: ../tools/libertine-container-manager:579
 msgid "use JSON output format."
@@ -555,12 +562,17 @@ msgstr "Multiarch-Unterstützung"
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
 msgstr ""
+"Aktivieren oder deaktivieren Sie die Multiarch-Unterstützung für einen "
+"Container."
 
 #: ../tools/libertine-container-manager:607
 msgid ""
 "Enables or disables i386 multiarch support for amd64 Libertine containers. "
 "This option has no effect when the Libertine container is i386."
 msgstr ""
+"Aktiviert oder deaktiviert die i386-Multiarch-Unterstützung für AMD64 "
+"Libertine-Container. Diese Option hat keine Auswirkung, wenn der Libertine-"
+"Container i386 ist."
 
 #: ../tools/libertine-container-manager:611
 msgid "Additional archive support"
@@ -602,19 +614,19 @@ msgstr "Zusätzliche bind-mounts"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
-msgstr ""
+msgstr "Hinzufügen oder Löschen eines zusätzlichen Bind-Mount."
 
 #: ../tools/libertine-container-manager:632
 msgid "Adds or removes a bind-mount in the specified Libertine container."
-msgstr ""
+msgstr "Hinzufügen oder Löschen eines zusätzlichen Bind-Mount."
 
 #: ../tools/libertine-container-manager:635
 msgid "Mount path"
-msgstr ""
+msgstr "Einhängepfad"
 
 #: ../tools/libertine-container-manager:636
 msgid "The absolute host path to bind-mount."
-msgstr ""
+msgstr "Der absolute Hostpfad zum bind-mount."
 
 #: ../tools/libertine-container-manager:638
 msgid "Freeze container support"
@@ -623,12 +635,16 @@ msgstr "Container einfrieren Unterstützung"
 #: ../tools/libertine-container-manager:639
 msgid "Enable or disable freezing LXC/LXD containers when not in use."
 msgstr ""
+"Aktivieren oder deaktivieren Sie das Einfrieren von LXC/LXD-Containern, wenn "
+"diese nicht verwendet werden."
 
 #: ../tools/libertine-container-manager:643
 msgid ""
 "Enables or disables freezing of LXC/LXD containers when not in use. When "
 "disabled, the container will stop."
 msgstr ""
+"Aktiviert oder deaktiviert das Einfrieren von LXC/LXD-Containern, wenn diese "
+"nicht verwendet werden. Wenn deaktiviert, stoppt der Container."
 
 #: ../tools/libertine-container-manager:666
 msgid "Set the default container."
@@ -647,6 +663,8 @@ msgid ""
 "Restart a frozen Libertine container.  This only works on LXC and LXD type "
 "containers."
 msgstr ""
+"Starten Sie einen eingefrorenen Libertine-Container neu. Dies funktioniert "
+"nur bei LXC/LXD-Containern."
 
 #~ msgid "new"
 #~ msgstr "Neu"
