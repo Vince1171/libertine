@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2019-10-12 20:55+0000\n"
-"Last-Translator: Tom Dom <thomas@patoel.nl>\n"
+"PO-Revision-Date: 2020-07-09 21:42+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "libertine/nl/>\n"
 "Language: nl\n"
@@ -17,111 +17,110 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr ""
+msgstr "De containerapp '{application_name}' is ongeldig."
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr ""
+msgstr "AptCache wordt momenteel niet ondersteund in snap-omgevingen"
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr ""
+msgstr "sluiting getedecteerd op {socket}"
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr ""
+msgstr "bezig met starten van {launch_task}"
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr ""
+msgstr "SIGCHLD ontvangen"
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
-msgstr ""
+msgstr "de gestarte toepassing is afgesloten"
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr ""
+msgstr "SIGINT ontvangen"
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
-msgstr ""
+msgstr "toetsenbordonderbreking"
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr ""
+msgstr "SIGTERM ontvangen"
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr ""
+msgstr "beëindigen"
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr ""
+msgstr "onbekend signaal \"{signal}\" ontvangen"
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
 msgstr ""
+"Start een toepassing in de huidige werkomgeving of in een Libertine-container"
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
 msgstr ""
+"De containeridentificatie die wordt gebruikt bij het starten van toepassingen"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "Stel een omgevingsvariabel in"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "opdrachtregel"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "Voer een opdrachtregel in"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr ""
+msgstr "Start een ssh-sessie binnen een lxc/lxd Libertine-container"
 
 #: ../tools/libertine-shell:43
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container identifier"
-msgstr "Containerinformatie"
+msgstr "Containeridentificatie"
 
 #: ../tools/libertine-shell:45
-#, fuzzy
-#| msgid "container name"
 msgid "Container username"
-msgstr "containernaam"
+msgstr "Container-gebruikersnaam"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr ""
+msgstr "De te gebruiken ssh-sleutel"
 
 #: ../tools/libertine-shell:50
 msgid "Assume yes to all prompts"
-msgstr ""
+msgstr "Ja op alles antwoorden"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
 msgstr ""
+"Geen id-bestand aangetroffen in '{}'. Laat leeg voor de standaardwaarde."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr ""
+msgstr "Geen overeenkomende publieke sleutel aangetroffen van '{}'."
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
-msgstr ""
+msgstr "Het ingestelde id-bestand of de publieke sleutel van '{}' bestaat niet."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -129,67 +128,81 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"Het lijkt erop dat je geen ssh-sleutels hebt ingesteld. Genereer een sleutel "
+"en probeer het opnieuw - dit kan met de volgende opdracht:\n"
+"\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"Wil je altijd '{}' als id-bestand en '{}' als gebruikersnaam gebruiken bij "
+"het verbinden met '{}'? [Jn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
 msgstr ""
+"Wil je altijd '{}' als id-bestand gebruiken bij het verbinden met '{}'? [Jn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "J"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "j"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"sshd is niet aangetroffen. Je kunt openssh installeren met de volgene "
+"opdracht:\n"
+"\tapt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"'{}' is een '{}'-container. Alleen 'lxd'- of 'lxc'-containers kunnen deze "
+"toepassing gebruiken."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
 msgstr ""
+"openssh-server is niet aangetroffen in de container '{}'. Wil je deze nu "
+"installeren? [Jn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "Kan openssh-server niet installeren"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "Kan geen ip-adres ophalen voor '{}'"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "Wil je de publieke sleutel '{}' toevoegen aan '{}'? [Jn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "Voeg de publieke sleutel toe aan de container om verder te gaan."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
 msgstr ""
+"De publieke sleutel kan niet worden toegevoegd aan de goedgekeurde sleutels."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "Er is geen container met id '{container_id}'"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
@@ -197,16 +210,18 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"Het back-end van de container '{id}' is niet geïnstalleerd. Installeer "
+"'python3-libertine-{type}' en probeer het opnieuw."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "Ongeldige distro: {distro}"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "Er is al een container met de id '{container_id}'."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -214,6 +229,8 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"De id '{container_id}' is ongeldig. De id moet de opmaak "
+"([a-z0-9][a-z0-9+.-]+) bevatten."
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -221,6 +238,8 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"De systeemkernel ondersteunt geen containers van het type '{container_type}"
+"'. Gebruik chroot of vermijdt optie -t."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -229,6 +248,9 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"De containerdistributie moet overeenkomen met de hostdistributie van op "
+"chroot gebaseerde containers. Gebruik '{host_distro}' of vermijdt de optie "
+"-d/--distro."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
@@ -239,44 +261,40 @@ msgstr ""
 "leeg om geen wachtwoord te gebruiken:"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "Container bijwerken"
+msgstr "De container kan niet worden aangemaakt"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "De container kan niet worden aangemaakt: \"{error}\""
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "'{package_name}' bestaat niet."
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "Het pakket '%1' is al geïnstalleerd."
+msgstr "'{package_name}' is al geïnstalleerd."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
-msgstr ""
+msgstr "'{package_name}' kan niet worden geïnstalleerd in '{container_id}'"
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "Het pakket '%1' is al geïnstalleerd."
+msgstr "'{package_name}' is niet geïnstalleerd."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
-msgstr ""
+msgstr "'{package_name}' kan niet worden verwijderd uit '{container_id}'"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
@@ -284,38 +302,44 @@ msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
 msgstr ""
+"De zoektocht naar \"{query_string}\" in '{container_id}' eindigde met een "
+"status zonder nul"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "i386 multiarch-ondersteuning is al {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
 "Configure archive called with no archive name. See configure --help for "
 "usage."
 msgstr ""
+"Configure archive is aangeroepen zonder archiefnaam. Zie configure --help "
+"voor meer informatie."
 
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
 msgid "{archive_name} already added in container."
-msgstr ""
+msgstr "{archive_name} is al toegevoegd aan de container."
 
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
 msgid "{archive_name} is not added in container."
-msgstr ""
+msgstr "{archive_name} is niet toegevoegd aan de container."
 
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
 msgid "{archive_name} was not properly deleted."
-msgstr ""
+msgstr "{archive_name} is onjuist verwijderd."
 
 #: ../tools/libertine-container-manager:340
 msgid ""
 "Configure bind-mounts called without mount path. See configure --help for "
 "usage"
 msgstr ""
+"Configure bind-mounts is aangeroepen zonder aankoppelpad. Zie configure --"
+"help voor meer informatie."
 
 #: ../tools/libertine-container-manager:347
 #, python-brace-format
@@ -323,104 +347,119 @@ msgid ""
 "Cannot mount {mount_path}, mount path must be in {home_dir} or /media/"
 "{username}."
 msgstr ""
+"Kan {mount_path} niet aankoppelen. Het aankoppelpad moet in {home_dir} of /"
+"media/{username} zijn."
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr ""
+msgstr "lxc ondersteunt momenteel geen /media-aankoppelingen."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
 msgid "Cannot mount '{mount_path}', mount path must be an existing directory."
 msgstr ""
+"Kan '{mount_path}' niet aankoppelen: het aankoppelpad moet een bestaande map "
+"zijn."
 
 #: ../tools/libertine-container-manager:364
 #, python-brace-format
 msgid "Cannot add mount '{mount_path}', bind-mount already exists."
-msgstr ""
+msgstr "Kan '{mount_path}' niet aankoppelen: bind-mount bestaat al."
 
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
 msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
-msgstr ""
+msgstr "Kan '{mount_path}' niet verwijderen: bind-mount bestaat niet."
 
 #: ../tools/libertine-container-manager:380
 msgid ""
 "Container cannot be restarted at this time.  You will need to restart the "
 "container at a later time using the 'restart' subcommand."
 msgstr ""
+"De container kan momenteel niet worden herstart.  Herstart de container "
+"later of gebruik de subopdracht 'restart'."
 
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
-msgstr ""
+msgstr "Onderbreking kan alleen worden ingesteld in lxc- en lxd-containers."
 
 #: ../tools/libertine-container-manager:393
 msgid "Configure called with no subcommand. See configure --help for usage."
 msgstr ""
+"Configure is aangeroepen zonder subopdracht. Zie configure --help voor meer "
+"informatie."
 
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
 msgstr ""
+"De subopdracht 'restart' kan alleen worden gebruikt in lxc- en lxd-"
+"containers."
 
 #: ../tools/libertine-container-manager:443
 msgid "Classic X application support for Unity 8"
-msgstr ""
+msgstr "Klassieke X-toepassingen in Unity 8"
 
 #: ../tools/libertine-container-manager:446
 #, python-brace-format
 msgid "Please do not run '{program_name}' using sudo"
-msgstr ""
+msgstr "Voer '{program_name}' niet uit met sudo"
 
 #: ../tools/libertine-container-manager:453
 msgid "disables all non-vital output"
-msgstr ""
+msgstr "schakelt alle onbelangrijke uitvoer uit"
 
 #: ../tools/libertine-container-manager:456
 msgid "enables debug output"
-msgstr ""
+msgstr "schakelt foutopsporingsuitvoer in"
 
 #: ../tools/libertine-container-manager:464
 msgid "Create a new Libertine container."
-msgstr ""
+msgstr "Maak een nieuwe Libertine-container."
 
 #: ../tools/libertine-container-manager:468
 msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
 msgstr ""
+"De container-id moet de opmaak ([a-z0-9][a-z0-9+.-]+) hebben. Verplicht."
 
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
-msgstr ""
+msgstr "Het soort Libertine-container: 'lxd', 'lxc' of 'chroot'."
 
 #: ../tools/libertine-container-manager:474
 msgid "Ubuntu distro series to create."
-msgstr ""
+msgstr "De aan te maken Ubuntu-distroversie."
 
 #: ../tools/libertine-container-manager:477
-#, fuzzy
-#| msgid "container name"
 msgid "User friendly container name."
-msgstr "containernaam"
+msgstr "Gebruikersvriendelijke containernaam."
 
 #: ../tools/libertine-container-manager:480
 msgid ""
 "Force the installation of the given valid Ubuntu distro even if it is no "
 "longer supported."
 msgstr ""
+"Dwing de installatie af van de opgegeven Ubuntu-distro, ook als deze niet "
+"meer wordt ondersteund."
 
 #: ../tools/libertine-container-manager:484
 msgid ""
 "Add i386 support to amd64 Libertine containers.  This option has no effect "
 "when the Libertine container is i386."
 msgstr ""
+"Voeg i386-ondersteuning toe aan amd64 Libertine-containers.  Deze optie "
+"heeft geen effect op i386 Libertine-containers."
 
 #: ../tools/libertine-container-manager:488
 msgid ""
 "Pass in the user's password when creating an LXC container.  This is "
 "intended for testing only and is very insecure."
 msgstr ""
+"Geef het gebruikerswachtwoord door tijdens het maken van een lxc-container.  "
+"Dit is alleen bedoeld voor testdoeleinden en ZEER onveilig."
 
 #: ../tools/libertine-container-manager:495
 msgid "Destroy any existing environment entirely."
-msgstr ""
+msgstr "Vernietig elke bestaande omgeving."
 
 #: ../tools/libertine-container-manager:498
 #: ../tools/libertine-container-manager:516
@@ -434,45 +473,54 @@ msgstr ""
 #: ../tools/libertine-container-manager:683
 msgid "Container identifier.  Default container is used if omitted."
 msgstr ""
+"Container-identificatie.  Sla over om de standaardcontainer te gebruiken."
 
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
-msgstr ""
+msgstr "Dwing vernietigen af.  Draaiende containers worden gestopt."
 
 #: ../tools/libertine-container-manager:507
 msgid "Install a package or packages in the specified Libertine container."
-msgstr ""
+msgstr "Installeer een pakket of pakketten in de opgegeven Libertine-container."
 
 #: ../tools/libertine-container-manager:512
 msgid ""
 "Name of package or full path to a Debian package. Multiple packages can be "
 "entered, separated by a space. Required."
 msgstr ""
+"De naam van een pakket of het volledige pad naar een Debian-pakket. Je kunt "
+"meerdere pakketten kommagescheiden opgeven. Verplicht."
 
 #: ../tools/libertine-container-manager:519
 #: ../tools/libertine-container-manager:537
 msgid "No dialog mode. Use text-based frontend during debconf interactions."
 msgstr ""
+"Geen dialoogvensters. Gebruik een op tekst gebaseerd front-end tijdens "
+"debconf-interacties."
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
-msgstr ""
+msgstr "Verwijder een pakket in de opgegeven Libertine-container."
 
 #: ../tools/libertine-container-manager:530
 msgid ""
 "Name of package to remove. Multiple packages can be entered, separated by a "
 "space. Required."
 msgstr ""
+"De naam van het te verwijderen pakket. Je kunt meerdere pakketten "
+"kommagescheiden opgeven. Verplicht."
 
 #: ../tools/libertine-container-manager:543
 msgid ""
 "Search for packages based on the search string in the specified Libertine "
 "container."
 msgstr ""
+"Zoek naar pakketten op basis van de zoekterm in de opgegeven Libertine-"
+"container."
 
 #: ../tools/libertine-container-manager:547
 msgid "String to search for in the package cache. Required."
-msgstr ""
+msgstr "De te gebruiken zoekterm bij het doorzoeken van de cache. Verplicht."
 
 #: ../tools/libertine-container-manager:556
 msgid ""
@@ -480,140 +528,136 @@ msgid ""
 "container's locale and installs necessary language packs if the host's "
 "locale has changed."
 msgstr ""
+"Werkt de pakketten in de Libertine-container bij.  Werkt tevens de gebruikte "
+"taal bij en installeert vereiste taalpakketten als de hosttaal is gewijzigd."
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
-msgstr ""
+msgstr "Toont een lijst met alle Libertine-containers."
 
 #: ../tools/libertine-container-manager:572
 msgid "List available app launchers in a container."
-msgstr ""
+msgstr "Toont alle beschikbare app-starters in een container."
 
 #: ../tools/libertine-container-manager:579
 msgid "use JSON output format."
-msgstr ""
+msgstr "gebruik json-uitvoerformaat."
 
 #: ../tools/libertine-container-manager:592
 msgid "The command to run in the specified container."
-msgstr ""
+msgstr "De in de opgegeven container uit te voeren opdracht."
 
 #: ../tools/libertine-container-manager:598
 msgid "Configure various options in the specified Libertine container."
-msgstr ""
+msgstr "Stel diverse opties in in de opgegeven Libertine-container."
 
 #: ../tools/libertine-container-manager:602
-#, fuzzy
-#| msgid "i386 multiarch support"
 msgid "Multiarch support"
-msgstr "i386-multiarch-ondersteuning"
+msgstr "Multiarch-ondersteuning"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
-msgstr ""
+msgstr "Schakel multiarch-ondersteuning in een container in of uit."
 
 #: ../tools/libertine-container-manager:607
 msgid ""
 "Enables or disables i386 multiarch support for amd64 Libertine containers. "
 "This option has no effect when the Libertine container is i386."
 msgstr ""
+"Schakel i386-ondersteuning in een amd64 Libertine-container in of uit. Deze "
+"optie heeft geen effect op i386 Libertine-containers."
 
 #: ../tools/libertine-container-manager:611
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional archive support"
-msgstr "Extra pakketbronnen"
+msgstr "Aanvullende pakketbronondersteuning"
 
 #: ../tools/libertine-container-manager:612
-#, fuzzy
-#| msgid "Additional archives and PPAs"
 msgid "Add or delete an additional archive (PPA)."
-msgstr "Extra pakketbronnen en PPA's"
+msgstr "Voeg extra pakketbronnen en PPA's toe of verwijder ze."
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
 msgstr ""
+"Voeg extra pakketbronnen en PPA's toe aan de opgegeven Libertine-container "
+"of verwijder ze."
 
 #: ../tools/libertine-container-manager:619
-#, fuzzy
-#| msgid "container name"
 msgid "Archive name"
-msgstr "containernaam"
+msgstr "Pakketbronnaam"
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."
-msgstr ""
+msgstr "De naam van de toe te voegen of te verwijderen pakketbron."
 
 #: ../tools/libertine-container-manager:623
 msgid "Public key file"
-msgstr ""
+msgstr "Publiek sleutelbestand"
 
 #: ../tools/libertine-container-manager:624
 msgid ""
 "File containing the key used to sign the given archive. Useful for third-"
 "party or private archives."
 msgstr ""
+"Het bestand dat de sleutel bevat die is gebruikt om de pakketbron te "
+"ondertekenen. Nuttig voor externe of privébronnen."
 
 #: ../tools/libertine-container-manager:627
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional bind-mounts"
-msgstr "Extra pakketbronnen"
+msgstr "Aanvullende bind-mounts"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
-msgstr ""
+msgstr "Voeg een aanvullende bind-mount toe of verwijder deze."
 
 #: ../tools/libertine-container-manager:632
 msgid "Adds or removes a bind-mount in the specified Libertine container."
 msgstr ""
+"Voeg een aanvullende bind-mount toe aan de opgegeven Libertine-container of "
+"verwijder deze."
 
 #: ../tools/libertine-container-manager:635
 msgid "Mount path"
-msgstr ""
+msgstr "Aankoppelpad"
 
 #: ../tools/libertine-container-manager:636
 msgid "The absolute host path to bind-mount."
-msgstr ""
+msgstr "Het volledige hostpad naar een bind-mount."
 
 #: ../tools/libertine-container-manager:638
-#, fuzzy
-#| msgid "Delete Container"
 msgid "Freeze container support"
-msgstr "Container verwijderen"
+msgstr "Containers onderbreken"
 
 #: ../tools/libertine-container-manager:639
 msgid "Enable or disable freezing LXC/LXD containers when not in use."
-msgstr ""
+msgstr "Schakel onderbreking van containers als ze inactief zijn in of uit."
 
 #: ../tools/libertine-container-manager:643
 msgid ""
 "Enables or disables freezing of LXC/LXD containers when not in use. When "
 "disabled, the container will stop."
 msgstr ""
+"Schakel onderbreking van containers als ze inactief zijn in of uit. Schakel "
+"deze optie uit om de container te stoppen."
 
 #: ../tools/libertine-container-manager:666
-#, fuzzy
-#| msgid "Default container"
 msgid "Set the default container."
-msgstr "Standaard container"
+msgstr "Stel de standaardcontainer in."
 
 #: ../tools/libertine-container-manager:669
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container id"
-msgstr "Containerinformatie"
+msgstr "Container-id"
 
 #: ../tools/libertine-container-manager:673
-#, fuzzy
-#| msgid "Default container"
 msgid "Clear the default container."
-msgstr "Standaard container"
+msgstr "Wis de standaardcontainer."
 
 #: ../tools/libertine-container-manager:679
 msgid ""
 "Restart a frozen Libertine container.  This only works on LXC and LXD type "
 "containers."
 msgstr ""
+"Herstart een onderbroken Libertine-container.  Dit heeft alleen effect op "
+"lxc- en lxd-containers."
 
 #~ msgid "new"
 #~ msgstr "nieuw"

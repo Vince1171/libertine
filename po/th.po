@@ -1,115 +1,108 @@
-# Spanish translation for libertine
-# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
-# This file is distributed under the same license as the libertine package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Canonical Ltd.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libertine\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-07-16 19:45+0000\n"
-"Last-Translator: pietre <pietre.linux@gmail.com>\n"
-"Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
-"libertine/es/>\n"
-"Language: es\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
-"X-Launchpad-Export-Date: 2017-03-19 06:49+0000\n"
 
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
 msgid "Container app '{application_name}' is not valid."
-msgstr "El contenedor de la aplicación  '{application_name}' no es válido."
+msgstr ""
 
 #: ../python/libertine/service/container.py:35
 msgid "Using AptCache not currently supported in snap environment"
-msgstr "El uso de AptCache actualmente no está soportado en el entorno snap"
+msgstr ""
 
 #: ../python/libertine/launcher/session.py:103
 #, python-brace-format
 msgid "close detected on {socket}"
-msgstr "cierre detectado en {socket}"
+msgstr ""
 
 #: ../python/libertine/launcher/session.py:172
 #, python-brace-format
 msgid "launching {launch_task}"
-msgstr "lanzando {launch_task}"
+msgstr ""
 
 #: ../python/libertine/launcher/session.py:332
 msgid "SIGCHLD received"
-msgstr "SIGCHLD recibido"
+msgstr ""
 
 #: ../python/libertine/launcher/session.py:334
 msgid "launched program exited"
-msgstr "cerrado el programa lanzado"
+msgstr ""
 
 #: ../python/libertine/launcher/session.py:336
 msgid "SIGINT received"
-msgstr "SIGINT recibido"
+msgstr ""
 
 #: ../python/libertine/launcher/session.py:337
 msgid "keyboard interrupt"
-msgstr "Interrupción del teclado"
+msgstr ""
 
 #: ../python/libertine/launcher/session.py:339
 msgid "SIGTERM received"
-msgstr "SIGTERM recibido"
+msgstr ""
 
 #: ../python/libertine/launcher/session.py:340
 msgid "terminate"
-msgstr "terminar"
+msgstr ""
 
 #: ../python/libertine/launcher/session.py:342
 #, python-brace-format
 msgid "unknown signal {signal} received"
-msgstr "señal desconocida {signal} recibida"
+msgstr ""
 
 #: ../python/libertine/launcher/config.py:128
 msgid "Launch an application natively or in a Libertine container"
-msgstr "Lanzar una aplicación nativamente o en un contenedor de Libertine"
+msgstr ""
 
 #: ../python/libertine/launcher/config.py:130
 msgid "Container identifier when launching containerized apps"
 msgstr ""
-"Identificador de contenedor cuando se lancen aplicaciones en contenedores"
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr "Poner una variable de sistema"
+msgstr ""
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr "Ejecutar linea"
+msgstr ""
 
 #: ../python/libertine/launcher/config.py:142
-#, fuzzy
 msgid "Must specify an exec line"
-msgstr "Se debe especificar una linea a ejecutar"
+msgstr ""
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr "Lanzar una sesión SSH en un contenedor Libertine lxc/lxd"
+msgstr ""
 
 #: ../tools/libertine-shell:43
 msgid "Container identifier"
-msgstr "Identificador del contenedor"
+msgstr ""
 
 #: ../tools/libertine-shell:45
 msgid "Container username"
-msgstr "Nombre de usuario del contenedor"
+msgstr ""
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
-msgstr "Clave SSH para ser usada"
+msgstr ""
 
 #: ../tools/libertine-shell:50
-#, fuzzy
 msgid "Assume yes to all prompts"
-msgstr "Asumir Sí para todos los avisos"
+msgstr ""
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
@@ -235,14 +228,10 @@ msgid ""
 "Enter password for your user in the Libertine container or leave blank for "
 "no password:"
 msgstr ""
-"Introducir la contraseña de su usuario en el contenedor de Libertine o dejar "
-"en blanco si no desea usar contraseña:"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "Actualizar contenedor"
+msgstr ""
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
@@ -255,10 +244,9 @@ msgid "{package_name} does not exist."
 msgstr ""
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "El paquete «%1» ya está instalado."
+msgstr ""
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
@@ -267,10 +255,9 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "El paquete «%1» ya está instalado."
+msgstr ""
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
@@ -395,10 +382,8 @@ msgid "Ubuntu distro series to create."
 msgstr ""
 
 #: ../tools/libertine-container-manager:477
-#, fuzzy
-#| msgid "container name"
 msgid "User friendly container name."
-msgstr "nombre del contenedor"
+msgstr ""
 
 #: ../tools/libertine-container-manager:480
 msgid ""
@@ -502,10 +487,8 @@ msgid "Configure various options in the specified Libertine container."
 msgstr ""
 
 #: ../tools/libertine-container-manager:602
-#, fuzzy
-#| msgid "i386 multiarch support"
 msgid "Multiarch support"
-msgstr "Compatibilidad con i386 multiarquitectura"
+msgstr ""
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
@@ -518,26 +501,20 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:611
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional archive support"
-msgstr "Archivos adicionales"
+msgstr ""
 
 #: ../tools/libertine-container-manager:612
-#, fuzzy
-#| msgid "Additional archives and PPAs"
 msgid "Add or delete an additional archive (PPA)."
-msgstr "Archivos y PPA adicionales"
+msgstr ""
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
 msgstr ""
 
 #: ../tools/libertine-container-manager:619
-#, fuzzy
-#| msgid "container name"
 msgid "Archive name"
-msgstr "nombre del contenedor"
+msgstr ""
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."
@@ -554,10 +531,8 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:627
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional bind-mounts"
-msgstr "Archivos adicionales"
+msgstr ""
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
@@ -576,10 +551,8 @@ msgid "The absolute host path to bind-mount."
 msgstr ""
 
 #: ../tools/libertine-container-manager:638
-#, fuzzy
-#| msgid "Delete Container"
 msgid "Freeze container support"
-msgstr "Eliminar contenedor"
+msgstr ""
 
 #: ../tools/libertine-container-manager:639
 msgid "Enable or disable freezing LXC/LXD containers when not in use."
@@ -592,308 +565,19 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:666
-#, fuzzy
-#| msgid "Default container"
 msgid "Set the default container."
-msgstr "Contenedor predeterminado"
+msgstr ""
 
 #: ../tools/libertine-container-manager:669
-#, fuzzy
-#| msgid "Container Info"
 msgid "Container id"
-msgstr "Información del contenedor"
+msgstr ""
 
 #: ../tools/libertine-container-manager:673
-#, fuzzy
-#| msgid "Default container"
 msgid "Clear the default container."
-msgstr "Contenedor predeterminado"
+msgstr ""
 
 #: ../tools/libertine-container-manager:679
 msgid ""
 "Restart a frozen Libertine container.  This only works on LXC and LXD type "
 "containers."
 msgstr ""
-
-#~ msgid "new"
-#~ msgstr "nuevo"
-
-#~ msgid "installing"
-#~ msgstr "instalando"
-
-#~ msgid "ready"
-#~ msgstr "preparado"
-
-#~ msgid "updating"
-#~ msgstr "actualizando"
-
-#~ msgid "removing"
-#~ msgstr "desinstalando"
-
-#~ msgid "removed"
-#~ msgstr "desinstalado"
-
-#~ msgid "failed"
-#~ msgstr "falló"
-
-#~ msgid "installed"
-#~ msgstr "instalado"
-
-#~ msgid "%1 failed to start"
-#~ msgstr "%1 no pudo iniciarse"
-
-#~ msgid "Installation of package %1 failed"
-#~ msgstr "Falló la instalación del paquete «%1»"
-
-#~ msgid "Removal of package %1 failed"
-#~ msgstr "Falló la desinstalación del paquete «%1»"
-
-#~ msgid "Searching for query %1 failed"
-#~ msgstr "Falló la búsqueda del término «%1»"
-
-#~ msgid "Updating container %1 failed"
-#~ msgstr "Falló la actualización del contenedor «%1»"
-
-#~ msgid "Creating container %1 failed"
-#~ msgstr "Falló la creación del contenedor «%1»"
-
-#~ msgid "Destroying container %1 failed"
-#~ msgstr "Falló la destrucción del contenedor «%1»"
-
-#~ msgid "Running command %1 failed"
-#~ msgstr "Falló la ejecución de la orden «%1»"
-
-#~ msgid "Attempt to configure container %1 failed"
-#~ msgstr "Falló el intento de configuración del contenedor «%1»"
-
-#~ msgid "Attempt to set container as default failed"
-#~ msgstr "Falló el intento de configurar el contenedor como predeterminado"
-
-#~ msgid "Search again or return to search results."
-#~ msgstr "Buscar de nuevo o volver a los resultados de búsqueda."
-
-#~ msgid "Search again"
-#~ msgstr "Buscar de nuevo"
-
-#~ msgid "Return to search results"
-#~ msgstr "Volver a los resultados de búsqueda"
-
-#~ msgid "My Containers"
-#~ msgstr "Mis contenedores"
-
-#~ msgid "delete"
-#~ msgstr "eliminar"
-
-#~ msgid "info"
-#~ msgstr "información"
-
-#~ msgid "edit"
-#~ msgstr "editar"
-
-#~ msgid "Container Apps"
-#~ msgstr "Aplicaciones del contenedor"
-
-#~ msgid "Search for packages"
-#~ msgstr "Buscar paquetes"
-
-#~ msgid "Search archives for packages"
-#~ msgstr "Buscar paquetes en los archivos"
-
-#~ msgid "search"
-#~ msgstr "buscar"
-
-#~ msgid "OK"
-#~ msgstr "Aceptar"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
-
-#~ msgid "Information for the %1 package"
-#~ msgstr "Información sobre el paquete «%1»"
-
-#~ msgid "Obtaining package version…"
-#~ msgstr "Obteniendo la versión del paquete…"
-
-#~ msgid "Package version"
-#~ msgstr "Versión del paquete"
-
-#~ msgid "Install status"
-#~ msgstr "Estado de la instalación"
-
-#~ msgid "Operation details"
-#~ msgstr "Detalles de la operación"
-
-#~ msgid "Unknown"
-#~ msgstr "Desconocido"
-
-#~ msgid "Package Search Results"
-#~ msgstr "Resultados de búsqueda del paquete"
-
-#~ msgid "Search"
-#~ msgstr "Buscar"
-
-#~ msgid "No Search Results Found"
-#~ msgstr "No se encontró ningún resultado"
-
-#~ msgid "Search Again"
-#~ msgstr "Volver a buscar"
-
-#~ msgid "Return to Apps Page"
-#~ msgstr "Volver a la página de aplicaciones"
-
-#~ msgid "Searching for packages…"
-#~ msgstr "Buscando paquetes…"
-
-#~ msgid "Install Package"
-#~ msgstr "Instalar paquete"
-
-#~ msgid "Manage %1"
-#~ msgstr "Gestionar %1"
-
-#~ msgid "Update…"
-#~ msgstr "Actualizar…"
-
-#~ msgid "Available Debian Packages to Install"
-#~ msgstr "Paquetes de Debian disponibles para instalar"
-
-#~ msgid "No Debian packages available"
-#~ msgstr "No hay ningún paquete de Debian disponible"
-
-#~ msgid "Classic Apps - %1"
-#~ msgstr "Aplicaciones clásicas – %1"
-
-#~ msgid "Install new package"
-#~ msgstr "Instalar paquete nuevo"
-
-#~ msgid "Enter exact package name or full path to a Debian package file"
-#~ msgstr ""
-#~ "Escriba el nombre exacto del paquete o una ruta completa a un archivo de "
-#~ "paquete de Debian"
-
-#~ msgid "Package name or Debian package path"
-#~ msgstr "Nombre de paquete o ruta a paquete de Debian"
-
-#~ msgid ""
-#~ "The %1 package is already installed. Please try a different package name."
-#~ msgstr ""
-#~ "El paquete «%1» ya está instalado. Pruebe con otro nombre de paquete."
-
-#~ msgid "Manage Container"
-#~ msgstr "Gestionar contenedor"
-
-#~ msgid "Container Information"
-#~ msgstr "Información del contenedor"
-
-#~ msgid "Switch Container"
-#~ msgstr "Cambiar de contenedor"
-
-#~ msgid "Enter package name or Debian file"
-#~ msgstr "Escriba el nombre de un paquete o indique un archivo de Debian"
-
-#~ msgid "Choose Debian package to install"
-#~ msgstr "Elija el paquete de Debian que se instalará"
-
-#~ msgid "Search archives for a package"
-#~ msgstr "Buscar un paquete en los archivos"
-
-#~ msgid "Remove Package"
-#~ msgstr "Desinstalar paquete"
-
-#~ msgid "Package Info"
-#~ msgstr "Información del paquete"
-
-#~ msgid "No packages are installed"
-#~ msgstr "No hay ningún paquete instalado"
-
-#~ msgid "add"
-#~ msgstr "añadir"
-
-#~ msgid "Add a new archive"
-#~ msgstr "Añadir un nuevo archivo"
-
-#~ msgid "remove"
-#~ msgstr "quitar"
-
-#~ msgid "Remove extra archive"
-#~ msgstr "quitar archivo adicional"
-
-#~ msgid "No additional archives and PPA's have been added"
-#~ msgstr "No se ha añadido ningún archivo ni PPA adicional"
-
-#~ msgid "Deleting archive failed"
-#~ msgstr "Falló la eliminación del archivo"
-
-#~ msgid "Copy to Clipboard"
-#~ msgstr "Copiar al portapapeles"
-
-#~ msgid "Dismiss"
-#~ msgstr "Descartar"
-
-#~ msgid "Welcome"
-#~ msgstr "Le damos la bienvenida"
-
-#~ msgid "Welcome to the Ubuntu Legacy Application Support Manager."
-#~ msgstr ""
-#~ "Este es el Gestor de compatibilidad con aplicaciones heredadas de Ubuntu."
-
-#~ msgid ""
-#~ "You do not have Legacy Application Support configured at this time.  "
-#~ "Downloading and setting up the required environment takes some time and "
-#~ "network bandwidth."
-#~ msgstr ""
-#~ "Por el momento no ha configurado la compatibilidad con aplicaciones "
-#~ "heredadas. Para descargar y configurar el entorno requerido se necesita "
-#~ "algo de tiempo y ancho de banda."
-
-#~ msgid "Install"
-#~ msgstr "Instalar"
-
-#~ msgid "Container information for %1"
-#~ msgstr "Información del contenedor «%1»"
-
-#~ msgid "ID"
-#~ msgstr "Id."
-
-#~ msgid "Name"
-#~ msgstr "Nombre"
-
-#~ msgid "Distribution"
-#~ msgstr "Distribución"
-
-#~ msgid "Status"
-#~ msgstr "Estado"
-
-#~ msgid "Add Archive"
-#~ msgstr "Añadir archivo"
-
-#~ msgid "New archive identifier, e.g."
-#~ msgstr "Nuevo identificador de archivo, p.ej."
-
-#~ msgid ""
-#~ "multiverse\n"
-#~ "ppa:user/repository\n"
-#~ "deb http://myserver/repo stable repo"
-#~ msgstr ""
-#~ "multiverse\n"
-#~ "ppa:usuario/repositorio\n"
-#~ "deb http://miservidor/repo stable repo"
-
-#~ msgid "(Optional) Public signing key for archive"
-#~ msgstr "(Opcional) clave de firma pública para el archivo"
-
-#~ msgid "Add"
-#~ msgstr "Añadir"
-
-#~ msgid "Container Options"
-#~ msgstr "Opciones del contenedor"
-
-#~ msgid "Configure options for container creation."
-#~ msgstr "Configurar opciones de creación de contenedores."
-
-#~ msgid "Enter a name for the container or leave blank for default name:"
-#~ msgstr ""
-#~ "Introducir un nombre para el contenedor o dejar en blanco para el nombre "
-#~ "predeterminado:"
-
-#~ msgid "password"
-#~ msgstr "contraseña"
