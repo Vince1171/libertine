@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-05-14 16:24+0000\n"
-"Last-Translator: Mattia Brambilla <m.brambilla@live.it>\n"
+"PO-Revision-Date: 2020-08-20 19:32+0000\n"
+"Last-Translator: Irio Bartolomei <irio92@gmail.com>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "libertine/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2017-03-19 06:49+0000\n"
 
 #: ../python/libertine/service/container_control_client.py:43
@@ -83,7 +83,7 @@ msgstr "Imposta una variabile d'ambiente"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "riga di comando"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
@@ -98,10 +98,8 @@ msgid "Container identifier"
 msgstr "Identificatore container"
 
 #: ../tools/libertine-shell:45
-#, fuzzy
-#| msgid "container name"
 msgid "Container username"
-msgstr "nome contenitore"
+msgstr "Nome contenitore"
 
 #: ../tools/libertine-shell:47
 msgid "SSH key to be used"
@@ -336,7 +334,7 @@ msgstr "{archive_name} già aggiunto nel container."
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
 msgid "{archive_name} is not added in container."
-msgstr ""
+msgstr "{archive_name} non aggiunto nel contenitore."
 
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
@@ -370,9 +368,9 @@ msgstr ""
 "directory esistente."
 
 #: ../tools/libertine-container-manager:364
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Cannot add mount '{mount_path}', bind-mount already exists."
-msgstr "Impossibile montare '{mount_path}', bind-mount esiste già."
+msgstr "Impossibile montare '{mount_path}', bind-mount è già esistente."
 
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
@@ -402,6 +400,8 @@ msgstr ""
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
 msgstr ""
+"Il sottocomando di riavvio è valido soltanto per contenitori di tipo LXC e "
+"LXD."
 
 #: ../tools/libertine-container-manager:443
 msgid "Classic X application support for Unity 8"
@@ -414,7 +414,7 @@ msgstr "Non eseguire '{program_name}' usando sudo"
 
 #: ../tools/libertine-container-manager:453
 msgid "disables all non-vital output"
-msgstr ""
+msgstr "disabilita tutte le uscite non vitali"
 
 #: ../tools/libertine-container-manager:456
 msgid "enables debug output"
@@ -455,16 +455,20 @@ msgid ""
 "Add i386 support to amd64 Libertine containers.  This option has no effect "
 "when the Libertine container is i386."
 msgstr ""
+"Aggiungi il supporto per i386 ai contenitori Libertine amd64.  Questa "
+"opzione non ha alcun effetto se il contenitore Libertine è i386."
 
 #: ../tools/libertine-container-manager:488
 msgid ""
 "Pass in the user's password when creating an LXC container.  This is "
 "intended for testing only and is very insecure."
 msgstr ""
+"Specificare la password dell'utente durante la creazione del contenitore "
+"LXC. Questa operazione è molto insicura, utilizzare solo in caso di test."
 
 #: ../tools/libertine-container-manager:495
 msgid "Destroy any existing environment entirely."
-msgstr ""
+msgstr "Distruggi completamente tutti gli ambienti esistenti."
 
 #: ../tools/libertine-container-manager:498
 #: ../tools/libertine-container-manager:516
@@ -483,16 +487,20 @@ msgstr ""
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
 msgstr ""
+"Distruzione forzata. Forza l'arresto dei contenitori in esecuzione prima di "
+"distruggerli."
 
 #: ../tools/libertine-container-manager:507
 msgid "Install a package or packages in the specified Libertine container."
-msgstr ""
+msgstr "Installa uno o più pacchetti nel contenitore Libertine selezionato."
 
 #: ../tools/libertine-container-manager:512
 msgid ""
 "Name of package or full path to a Debian package. Multiple packages can be "
 "entered, separated by a space. Required."
 msgstr ""
+"Nome del pacchetto o percorso completo di un pacchetto Debian. È possibile "
+"inserire più pacchetti, separati da uno spazio. Obbligatorio."
 
 #: ../tools/libertine-container-manager:519
 #: ../tools/libertine-container-manager:537
@@ -508,12 +516,16 @@ msgid ""
 "Name of package to remove. Multiple packages can be entered, separated by a "
 "space. Required."
 msgstr ""
+"Nome del pacchetto da rimuovere. È possibile inserire più pacchetti, "
+"separati da uno spazio. Obbligatorio."
 
 #: ../tools/libertine-container-manager:543
 msgid ""
 "Search for packages based on the search string in the specified Libertine "
 "container."
 msgstr ""
+"Cerca pacchetti basandosi sulla stringa di ricerca nel contenitore Libertine "
+"selezionato."
 
 #: ../tools/libertine-container-manager:547
 msgid "String to search for in the package cache. Required."
@@ -544,7 +556,7 @@ msgstr "Il comando da eseguire nel container specificato."
 
 #: ../tools/libertine-container-manager:598
 msgid "Configure various options in the specified Libertine container."
-msgstr ""
+msgstr "Configura varie opzioni per il contenitore Libertine selezionato."
 
 #: ../tools/libertine-container-manager:602
 msgid "Multiarch support"
@@ -552,7 +564,7 @@ msgstr "Supporto multiarchitettura"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
-msgstr ""
+msgstr "Abilita o disabilita il supporto multi-architettura per un contenitore."
 
 #: ../tools/libertine-container-manager:607
 msgid ""
@@ -592,22 +604,20 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:627
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional bind-mounts"
-msgstr "Archivi aggiuntivi"
+msgstr "Altri bind-mounts"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
-msgstr ""
+msgstr "Aggiungi o elimina un bind-mount aggiuntivo."
 
 #: ../tools/libertine-container-manager:632
 msgid "Adds or removes a bind-mount in the specified Libertine container."
-msgstr ""
+msgstr "Aggiunge o rimuove un bind-mount nel contenitore Libertine selezionato."
 
 #: ../tools/libertine-container-manager:635
 msgid "Mount path"
-msgstr ""
+msgstr "Percorso di mount"
 
 #: ../tools/libertine-container-manager:636
 msgid "The absolute host path to bind-mount."
@@ -638,16 +648,16 @@ msgid "Container id"
 msgstr "Identificatore container"
 
 #: ../tools/libertine-container-manager:673
-#, fuzzy
-#| msgid "Default container"
 msgid "Clear the default container."
-msgstr "Container di default"
+msgstr "Pulisci il contenitore di default."
 
 #: ../tools/libertine-container-manager:679
 msgid ""
 "Restart a frozen Libertine container.  This only works on LXC and LXD type "
 "containers."
 msgstr ""
+"Riavvia un contenitore Libertine congelato. Disponibile soltanto per "
+"contenitori di tipo LXC e LXD."
 
 #~ msgid "new"
 #~ msgstr "nuovo"
