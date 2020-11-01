@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-04-03 18:22+0000\n"
-"Last-Translator: Ari Börde Kröyer <ari.kroyer@online.no>\n"
+"PO-Revision-Date: 2020-10-26 15:10+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.ubports.com/projects/"
 "ubports/libertine/nb_NO/>\n"
 "Language: nb_NO\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../python/libertine/service/container_control_client.py:43
 #, python-brace-format
@@ -81,11 +81,11 @@ msgstr "Inntilling av miljøvariabel"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "kjørelinje"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "Kjørelinje må angis"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
@@ -109,7 +109,7 @@ msgstr "Anta ja på alle punkt"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
-msgstr ""
+msgstr "identitetsfil ikke funnet på '{}'. La stå tomt for forvalg."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
@@ -127,67 +127,77 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"Det virker som SSH nøkkel ikke er satt opp. Vennligst generer en nøkkel og "
+"prøv på nytt. Bruk følgende kommando for å generere nøkkelen:\n"
+"\tssh-keygen -t rsa -b 4096 -C 'din_epost@eksempel.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"Benytt alltid identitetsfil '{}' og brukernavn '{}' for å opprette "
+"forbindelse til '{}'? [Jn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
-msgstr ""
+msgstr "Bruk alltid '{}' som identitetsfil når du forbinder deg med '{}'? [Jn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "J"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "j"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"Ingen sshd funnet. Du kan installere openssh med følgende kommando:\n"
+"\tapt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"'{}' er en '{}' beholder. Kun 'lxd' eller 'lxc' kan benytte dette verktøyet."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
-msgstr ""
+msgstr "openssh-server ikke funnet i beholderen '{}'. Installere denne nå? [Jn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "Klarte ikke å installere openssh-server"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "Klarte ikke å hente IP adressen til '{}'"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "Er det greit å legge offentlig nøkkel '{}' til beholderen '{}'? [Jn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "Offentlig nøkkel må legges til beholderen for å fortsette."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
 msgstr ""
+"Milslyktes i å legge til offentlig nøkkel blant beholderens autoriserte "
+"nøkler."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "Ingen beholder med ID '{container_id}'"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
@@ -195,16 +205,18 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"Backend til beholderen '{id}' ikke installert. Installer "
+"'python3-libertine-{type}' og prøv på nytt."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "Ugyldig distribusjon: {distro}"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "Beholder ID '{container_id}' er allerede i bruk."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -212,6 +224,8 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"Beholder ID '{container_id}' ugyldig. ID må være på formen "
+"([a-z0-9][a-z0-9+.-]+)."
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -219,6 +233,8 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"Systemkjernen støtter ikke beholdere av typen {container_type}. Vennligst "
+"enten benytt chroot eller fjern -t valget."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -227,48 +243,56 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"Beholder- og vertsdistribusjonene må stemme overens for chroot baserte "
+"beholdere. Vennligst enten benytt '{host_distro}' eller fjern -d/--distro "
+"valget."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
 "Enter password for your user in the Libertine container or leave blank for "
 "no password:"
 msgstr ""
+"Angi passord for din bruker i Libertine beholderen, eller la stå blankt hvis "
+"du ikke ønsker passord:"
 
 #: ../tools/libertine-container-manager:116
 msgid "Failed to create container"
-msgstr ""
+msgstr "Klarte ikke å lage beholderen"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "Klarte ikke å lage beholderen: '{error}'"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "{package_name} eksisterer ikke."
 
 #: ../tools/libertine-container-manager:175
 #, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr ""
+msgstr "Pakken '{package_name}' er allerede installert."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
 msgstr ""
+"Innstallasjon av pakken '{package_name}' i beholderen '{container_id}' "
+"mislyktes"
 
 #: ../tools/libertine-container-manager:220
 #, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr ""
+msgstr "Pakken '{package_name}' er ikke innstallert."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
 msgstr ""
+"Fjerning av pakken '{package_name}' fra beholderen '{container_id}' mislyktes"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
@@ -276,38 +300,42 @@ msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
 msgstr ""
+"Søk etter '{query_string}' i beholderen '{container_id}' returnerte ikke-"
+"null status"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "i386 multiarch støtte er allerede {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
 "Configure archive called with no archive name. See configure --help for "
 "usage."
-msgstr ""
+msgstr "Konfigurere navnløs pakkekilde. Se configure --help for bruksmåte."
 
 #: ../tools/libertine-container-manager:317
 #, python-brace-format
 msgid "{archive_name} already added in container."
-msgstr ""
+msgstr "{archive_name} er allerede lagt til i beholderen."
 
 #: ../tools/libertine-container-manager:330
 #, python-brace-format
 msgid "{archive_name} is not added in container."
-msgstr ""
+msgstr "{archive_name} er ikke lagt til i beholderen."
 
 #: ../tools/libertine-container-manager:335
 #, python-brace-format
 msgid "{archive_name} was not properly deleted."
-msgstr ""
+msgstr "{archive_name} ble ikke slettet riktig."
 
 #: ../tools/libertine-container-manager:340
 msgid ""
 "Configure bind-mounts called without mount path. See configure --help for "
 "usage"
 msgstr ""
+"Konfigurere faste monteringspunkt som kalles uten sti. Se configure --help "
+"for bruksmåte."
 
 #: ../tools/libertine-container-manager:347
 #, python-brace-format
@@ -315,102 +343,118 @@ msgid ""
 "Cannot mount {mount_path}, mount path must be in {home_dir} or /media/"
 "{username}."
 msgstr ""
+"Kan ikke montere {mount_path}. Monteringssti må være i {home_dir} eller /"
+"media/{username}."
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr ""
+msgstr "/media monteringspunkt støttes foreløpig ikke i lxc."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
 msgid "Cannot mount '{mount_path}', mount path must be an existing directory."
 msgstr ""
+"Kan ikke montere '{mount_path}'. Monteringsstien må være en eksisterende "
+"katalog."
 
 #: ../tools/libertine-container-manager:364
 #, python-brace-format
 msgid "Cannot add mount '{mount_path}', bind-mount already exists."
 msgstr ""
+"Kan ikke opprette '{mount_path}'. Monteringspuntket eksisterer allerede."
 
 #: ../tools/libertine-container-manager:370
 #, python-brace-format
 msgid "Cannot remove mount '{mount_path}', bind-mount does not exist."
-msgstr ""
+msgstr "Kan ikke fjerne '{mount_path}'. Monteringspunktet eksisterer ikke."
 
 #: ../tools/libertine-container-manager:380
 msgid ""
 "Container cannot be restarted at this time.  You will need to restart the "
 "container at a later time using the 'restart' subcommand."
 msgstr ""
+"Beholderen kan ikke omstartes i øyeblikket.  Du må starte beholderen på nytt "
+"seinere med kommandotillegget 'restart'."
 
 #: ../tools/libertine-container-manager:387
 msgid "Configuring freeze is only valid on LXC and LXD container types."
-msgstr ""
+msgstr "Konfigurering av 'frys' er kun gyldig for beholdertypene LXC og LXD."
 
 #: ../tools/libertine-container-manager:393
 msgid "Configure called with no subcommand. See configure --help for usage."
 msgstr ""
+"Konfigureringskommandoen ble gitt uten kommandotillegg. Se configure --help "
+"for bruksmåte."
 
 #: ../tools/libertine-container-manager:434
 msgid "The restart subcommand is only valid for LXC and LXD type containers."
-msgstr ""
+msgstr "Kommandotillegget 'restart' er kun gyldig med LXC and LXD beholdere."
 
 #: ../tools/libertine-container-manager:443
 msgid "Classic X application support for Unity 8"
-msgstr ""
+msgstr "Klassisk X-applikasjonsstøtte for Unity 8"
 
 #: ../tools/libertine-container-manager:446
 #, python-brace-format
 msgid "Please do not run '{program_name}' using sudo"
-msgstr ""
+msgstr "Vennligst ikke kjør '{program_name}' med 'sudo'"
 
 #: ../tools/libertine-container-manager:453
 msgid "disables all non-vital output"
-msgstr ""
+msgstr "deaktiverer alle uviktige utdata"
 
 #: ../tools/libertine-container-manager:456
 msgid "enables debug output"
-msgstr ""
+msgstr "aktiverer feilsøkingsutdata"
 
 #: ../tools/libertine-container-manager:464
 msgid "Create a new Libertine container."
-msgstr ""
+msgstr "Lag ny Libertine-beholder."
 
 #: ../tools/libertine-container-manager:468
 msgid "Container identifier of form ([a-z0-9][a-z0-9+.-]+). Required."
-msgstr ""
+msgstr "Beholderidentifikator på formen ([a-z0-9][a-z0-9+.-]+) påkrevd."
 
 #: ../tools/libertine-container-manager:471
 msgid "Type of Libertine container to create. Either 'lxd', 'lxc' or 'chroot'."
 msgstr ""
+"Type Libertine-beholder som skal opprettes: 'lxd', 'lxc' eller 'chroot'."
 
 #: ../tools/libertine-container-manager:474
 msgid "Ubuntu distro series to create."
-msgstr ""
+msgstr "Betegnelse på Ubuntu distribusjonen som skal opprettes."
 
 #: ../tools/libertine-container-manager:477
 msgid "User friendly container name."
-msgstr ""
+msgstr "Brukervennlig beholdernavn."
 
 #: ../tools/libertine-container-manager:480
 msgid ""
 "Force the installation of the given valid Ubuntu distro even if it is no "
 "longer supported."
 msgstr ""
+"Tving installasjon av den angitte Ubuntu-distribusjonen selv om den ikke "
+"støttes lenger."
 
 #: ../tools/libertine-container-manager:484
 msgid ""
 "Add i386 support to amd64 Libertine containers.  This option has no effect "
 "when the Libertine container is i386."
 msgstr ""
+"Inkluder i386 støtte i amd64 Libertine-beholdere.  Dette valget har ingen "
+"effekt når Libertine-beholderen er type i386."
 
 #: ../tools/libertine-container-manager:488
 msgid ""
 "Pass in the user's password when creating an LXC container.  This is "
 "intended for testing only and is very insecure."
 msgstr ""
+"Inkluder brukerens passord ved opprettelse av LXC beholder.  Dette er kun "
+"ment til testing og er svært usikkert."
 
 #: ../tools/libertine-container-manager:495
 msgid "Destroy any existing environment entirely."
-msgstr ""
+msgstr "Avvikle et eksisterende miljø fullstendig."
 
 #: ../tools/libertine-container-manager:498
 #: ../tools/libertine-container-manager:516
@@ -424,45 +468,54 @@ msgstr ""
 #: ../tools/libertine-container-manager:683
 msgid "Container identifier.  Default container is used if omitted."
 msgstr ""
+"Beholderidentifikator.  Forvalgt beholder blir benyttet dersom feltet er "
+"tomt."
 
 #: ../tools/libertine-container-manager:501
 msgid "Force destroy.  Forces running containers to stop before destruction."
-msgstr ""
+msgstr "Tving sletting.  Tvinger stopping av kjørende beholdere før sletting."
 
 #: ../tools/libertine-container-manager:507
 msgid "Install a package or packages in the specified Libertine container."
 msgstr ""
+"Installer en eller flere pakker i den spesifiserte Libertine-beholderen."
 
 #: ../tools/libertine-container-manager:512
 msgid ""
 "Name of package or full path to a Debian package. Multiple packages can be "
 "entered, separated by a space. Required."
 msgstr ""
+"Pakkenavn eller fullstendig sti til Debian pakken. Påkrevd. Flere pakker kan "
+"oppgis, kommaseparert."
 
 #: ../tools/libertine-container-manager:519
 #: ../tools/libertine-container-manager:537
 msgid "No dialog mode. Use text-based frontend during debconf interactions."
 msgstr ""
+"Dialogfri modus. Bruk tekstbasert brukergrensesnitt under konfigurering."
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
-msgstr ""
+msgstr "Fjern en pakke fra den spesifiserte Libertine-beholderen."
 
 #: ../tools/libertine-container-manager:530
 msgid ""
 "Name of package to remove. Multiple packages can be entered, separated by a "
 "space. Required."
 msgstr ""
+"Navn på pakken som skal fjernes. Påkrevd. Flere pakker kan oppgis, "
+"kommaseparert."
 
 #: ../tools/libertine-container-manager:543
 msgid ""
 "Search for packages based on the search string in the specified Libertine "
 "container."
 msgstr ""
+"Søk etter pakker i Libertine-beholderen med utgangspunkt i søkestrengen."
 
 #: ../tools/libertine-container-manager:547
 msgid "String to search for in the package cache. Required."
-msgstr ""
+msgstr "Streng det skal søkes etter i pakkemellomlageret. Påkrevd."
 
 #: ../tools/libertine-container-manager:556
 msgid ""
@@ -470,119 +523,135 @@ msgid ""
 "container's locale and installs necessary language packs if the host's "
 "locale has changed."
 msgstr ""
+"Oppdater pakker i Libertine-beholderen.  Oppdaterer også beholderens "
+"lokaliserings- og språkinnstillinger dersom vertsenhetens innstillinger har "
+"blitt endret."
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
-msgstr ""
+msgstr "List opp alle Libertine-beholdere."
 
 #: ../tools/libertine-container-manager:572
 msgid "List available app launchers in a container."
-msgstr ""
+msgstr "List opp tilgjengelige programoppstartere i en beholder."
 
 #: ../tools/libertine-container-manager:579
 msgid "use JSON output format."
-msgstr ""
+msgstr "bruk JSON format på utdata."
 
 #: ../tools/libertine-container-manager:592
 msgid "The command to run in the specified container."
-msgstr ""
+msgstr "Kommandoen som skal kjøres i den angitte beholderen."
 
 #: ../tools/libertine-container-manager:598
 msgid "Configure various options in the specified Libertine container."
-msgstr ""
+msgstr "Konfigurere diverse valg i den angitte Libertine-beholderen."
 
 #: ../tools/libertine-container-manager:602
 msgid "Multiarch support"
-msgstr ""
+msgstr "Multiarch-støtte"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
-msgstr ""
+msgstr "Aktivere eller deaktivere multiarch-støtte for en beholder."
 
 #: ../tools/libertine-container-manager:607
 msgid ""
 "Enables or disables i386 multiarch support for amd64 Libertine containers. "
 "This option has no effect when the Libertine container is i386."
 msgstr ""
+"Aktiverer eller deaktiverer i386 multiarch-støtte for amd64 Libertine-"
+"beholdere. Dette valget har ingen effekt på Libertine-beholdere av type i386."
 
 #: ../tools/libertine-container-manager:611
 msgid "Additional archive support"
-msgstr ""
+msgstr "Støtte for ekstra pakkekilde"
 
 #: ../tools/libertine-container-manager:612
 msgid "Add or delete an additional archive (PPA)."
-msgstr ""
+msgstr "Legg til eller fjern en ekstra pakkekilde (PPA)."
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
 msgstr ""
+"Legger til eller fjerner en ekstra pakkekilde (PPA) i den spesifiserte "
+"Libertine-beholderen."
 
 #: ../tools/libertine-container-manager:619
 msgid "Archive name"
-msgstr ""
+msgstr "Pakkekildenavn"
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."
-msgstr ""
+msgstr "Navn på pakkekilde som skal legges til eller fjernes."
 
 #: ../tools/libertine-container-manager:623
 msgid "Public key file"
-msgstr ""
+msgstr "Offentlignøkkelfil"
 
 #: ../tools/libertine-container-manager:624
 msgid ""
 "File containing the key used to sign the given archive. Useful for third-"
 "party or private archives."
 msgstr ""
+"Fil med nøkkel som benyttes med angitt pakkekilde. Benyttes til tredjeparts- "
+"og private pakkekilder."
 
 #: ../tools/libertine-container-manager:627
 msgid "Additional bind-mounts"
-msgstr ""
+msgstr "Ytterligere monteringspunkter"
 
 #: ../tools/libertine-container-manager:628
 msgid "Add or delete an additional bind-mount."
-msgstr ""
+msgstr "Legg til eller slett et ekstra monteringspunkt."
 
 #: ../tools/libertine-container-manager:632
 msgid "Adds or removes a bind-mount in the specified Libertine container."
 msgstr ""
+"Legger til eller sletter et monteringspunkt i den valgte Libertine-"
+"beholderen."
 
 #: ../tools/libertine-container-manager:635
 msgid "Mount path"
-msgstr ""
+msgstr "Sti til monteringspunktet"
 
 #: ../tools/libertine-container-manager:636
 msgid "The absolute host path to bind-mount."
-msgstr ""
+msgstr "Den absolutte stien fra vert til monterintspunkt."
 
 #: ../tools/libertine-container-manager:638
 msgid "Freeze container support"
-msgstr ""
+msgstr "Støtte for 'frys beholder'"
 
 #: ../tools/libertine-container-manager:639
 msgid "Enable or disable freezing LXC/LXD containers when not in use."
 msgstr ""
+"Aktiver eller deaktiver 'frysing' av LXC/LXD beholdere når de ikke er i bruk."
 
 #: ../tools/libertine-container-manager:643
 msgid ""
 "Enables or disables freezing of LXC/LXD containers when not in use. When "
 "disabled, the container will stop."
 msgstr ""
+"Aktiverer eller deaktiverer 'frysing' av LXC/LXD beholdere når de ikke er i "
+"bruk. Beholderen stopper når dette er deaktivert."
 
 #: ../tools/libertine-container-manager:666
 msgid "Set the default container."
-msgstr ""
+msgstr "Angi forvalgt beholder."
 
 #: ../tools/libertine-container-manager:669
 msgid "Container id"
-msgstr ""
+msgstr "Beholder ID"
 
 #: ../tools/libertine-container-manager:673
 msgid "Clear the default container."
-msgstr ""
+msgstr "Tøm forvalgt beholder."
 
 #: ../tools/libertine-container-manager:679
 msgid ""
 "Restart a frozen Libertine container.  This only works on LXC and LXD type "
 "containers."
 msgstr ""
+"Gi en 'fryst' Libertine-beholder en omstart.  Dette virker bare på LXC og "
+"LXD beholdere."

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-07-16 19:45+0000\n"
-"Last-Translator: pietre <pietre.linux@gmail.com>\n"
+"PO-Revision-Date: 2020-10-10 06:43+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "libertine/es/>\n"
 "Language: es\n"
@@ -86,9 +86,8 @@ msgid "exec line"
 msgstr "Ejecutar linea"
 
 #: ../python/libertine/launcher/config.py:142
-#, fuzzy
 msgid "Must specify an exec line"
-msgstr "Se debe especificar una linea a ejecutar"
+msgstr "Se debe especificar un renglón de «exec»"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
@@ -107,21 +106,24 @@ msgid "SSH key to be used"
 msgstr "Clave SSH para ser usada"
 
 #: ../tools/libertine-shell:50
-#, fuzzy
 msgid "Assume yes to all prompts"
-msgstr "Asumir Sí para todos los avisos"
+msgstr "Suponer Sí para todos los avisos"
 
 #: ../tools/libertine-shell:72
 msgid "Identity file not found at '{}'. Leave blank for default."
 msgstr ""
+"No se encontró ningún archivo identitario en «{}». Déjelo vacío para usar el "
+"predeterminado."
 
 #: ../tools/libertine-shell:78
 msgid "Corresponding public key not found for '{}'."
-msgstr ""
+msgstr "No se encontró la clave pública correspondiente de «{}»."
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
 msgstr ""
+"No existe el archivo identitario o la clave pública correspondiente a «{}» "
+"que se ha configurado."
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -129,67 +131,81 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"Parece que no se ha configurado ninguna clave SSH. Genere una e inténtelo "
+"nuevamente. Puede utilizar esta orden para generar una clave apropiada:\n"
+"\tssh-keygen -t rsa -b 4096 -C 'su_dirección@ejemplo.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
 msgstr ""
+"¿Utilizar siempre «{}» como archivo identitario y el nombre de usuario «{}» "
+"al conectar con «{}»? [Sn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
 msgstr ""
+"¿Utilizar siempre «{}» como archivo identitario al conectar con «{}»? [Sn]"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "Y"
-msgstr ""
+msgstr "S"
 
 #: ../tools/libertine-shell:165 ../tools/libertine-shell:209
 #: ../tools/libertine-shell:243
 msgid "y"
-msgstr ""
+msgstr "s"
 
 #: ../tools/libertine-shell:190
 msgid ""
 "No sshd found. You can install openssh with the following command:\n"
 "\tapt install openssh-client"
 msgstr ""
+"No se encontró sshd. Puede instalar openssh con esta orden:\n"
+"\tapt install openssh-client"
 
 #: ../tools/libertine-shell:197
 msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
+"«{}» es un contenedor «{}». Solamente los contenedores «lxd» y «lxc» pueden "
+"hacer uso de esta herramienta."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
 msgstr ""
+"No se detectó openssh-server en el contenedor «{}». ¿Quiere instalarlo "
+"ahora? [Sn]"
 
 #: ../tools/libertine-shell:214
 msgid "Failed to install openssh-server"
-msgstr ""
+msgstr "No se pudo instalar openssh-server"
 
 #: ../tools/libertine-shell:220 ../tools/libertine-shell:227
 msgid "Unable to get IP address for '{}'"
-msgstr ""
+msgstr "No se pudo obtener la dirección IP de «{}»"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
 msgstr ""
+"¿Está de acuerdo en añadir la clave pública «{}» al contenedor «{}»? [Sn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "Para prosegir se debe añadir la clave pública al contenedor."
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
 msgstr ""
+"No se pudo sumar la clave pública a las claves autorizadas del contenedor."
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "No hay ningún contenedor cuyo identificador sea «{container_id}»"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
@@ -197,16 +213,18 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"El dorsal del contenedor «{id}» no está instalado. Instale "
+"«python3-libertine-{type}» e inténtelo de nuevo."
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "La distribución {distro} no es válida"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "Ya se utiliza el identificador de contenedor «{container_id}»."
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
@@ -214,6 +232,8 @@ msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
 msgstr ""
+"El identificador de contenedor «{container_id}» no es válido; debe "
+"conformarse a la pauta ([a-z0-9][a-z0-9+.-]+)."
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -221,6 +241,8 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"El núcleo del sistema no admite contenedores del tipo {container_type}. "
+"Utilice chroot u omita la opción -t."
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -229,54 +251,56 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"La distribución de los contenedores basados en chroot deben coincidir con la "
+"del anfitrión. Utilice «{host_distro}» u omita la opción -d/--distro."
 
 #: ../tools/libertine-container-manager:98
 msgid ""
 "Enter password for your user in the Libertine container or leave blank for "
 "no password:"
 msgstr ""
-"Introducir la contraseña de su usuario en el contenedor de Libertine o dejar "
-"en blanco si no desea usar contraseña:"
+"Escriba la contraseña de su cuenta en el contenedor de Libertine o deje el "
+"campo vacío si no la hay:"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Update container"
 msgid "Failed to create container"
-msgstr "Actualizar contenedor"
+msgstr "No se pudo crear el contenedor"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "No se pudo crear el contenedor: «{error}»"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "{package_name} no existe."
 
 #: ../tools/libertine-container-manager:175
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr "El paquete «%1» ya está instalado."
+msgstr "El paquete «{package_name}» ya está instalado."
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
 msgstr ""
+"El paquete «{package_name}» no se pudo instalar en el contenedor "
+"«{container_id}»"
 
 #: ../tools/libertine-container-manager:220
-#, fuzzy, python-brace-format
-#| msgid "The %1 package is already installed."
+#, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr "El paquete «%1» ya está instalado."
+msgstr "El paquete «{package_name}» no está instalado."
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
 msgstr ""
+"No se pudo desinstalar el paquete «{package_name}» del contenedor "
+"«{container_id}»"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
@@ -395,10 +419,8 @@ msgid "Ubuntu distro series to create."
 msgstr ""
 
 #: ../tools/libertine-container-manager:477
-#, fuzzy
-#| msgid "container name"
 msgid "User friendly container name."
-msgstr "nombre del contenedor"
+msgstr "Nombre del contenedor amigable."
 
 #: ../tools/libertine-container-manager:480
 msgid ""
@@ -502,10 +524,8 @@ msgid "Configure various options in the specified Libertine container."
 msgstr ""
 
 #: ../tools/libertine-container-manager:602
-#, fuzzy
-#| msgid "i386 multiarch support"
 msgid "Multiarch support"
-msgstr "Compatibilidad con i386 multiarquitectura"
+msgstr "Compatibilidad multiarquitectura"
 
 #: ../tools/libertine-container-manager:603
 msgid "Enable or disable multiarch support for a container."
@@ -518,26 +538,20 @@ msgid ""
 msgstr ""
 
 #: ../tools/libertine-container-manager:611
-#, fuzzy
-#| msgid "Additional Archives"
 msgid "Additional archive support"
-msgstr "Archivos adicionales"
+msgstr "Compatibilidad con archivos adicionales"
 
 #: ../tools/libertine-container-manager:612
-#, fuzzy
-#| msgid "Additional archives and PPAs"
 msgid "Add or delete an additional archive (PPA)."
-msgstr "Archivos y PPA adicionales"
+msgstr "Añadir o eliminar un archivo adicional (PPA)."
 
 #: ../tools/libertine-container-manager:616
 msgid "Adds or removes an archive (PPA) in the specified Libertine container."
 msgstr ""
 
 #: ../tools/libertine-container-manager:619
-#, fuzzy
-#| msgid "container name"
 msgid "Archive name"
-msgstr "nombre del contenedor"
+msgstr "Nombre del archivo"
 
 #: ../tools/libertine-container-manager:620
 msgid "Archive name to be added or removed."

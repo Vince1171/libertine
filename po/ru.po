@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-06-24 10:05+0000\n"
+"PO-Revision-Date: 2020-09-19 17:50+0000\n"
 "Last-Translator: Eugene Markoff <uralhistory@gmail.com>\n"
 "Language-Team: Russian <https://translate.ubports.com/projects/ubports/"
 "libertine/ru/>\n"
@@ -84,15 +84,15 @@ msgstr "Установить переменную для среды"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "exec line"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "Должна указываться exec line"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
-msgstr "Запустить  сессию SSH внутри  lxc/lxd контейнера Libertine"
+msgstr "Запустить сессию SSH внутри lxc/lxd контейнера Libertine"
 
 #: ../tools/libertine-shell:43
 msgid "Container identifier"

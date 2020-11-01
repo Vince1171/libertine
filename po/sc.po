@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-08-08 07:58+0000\n"
+"PO-Revision-Date: 2020-08-31 10:00+0000\n"
 "Last-Translator: Adria <adriamartinmor@gmail.com>\n"
 "Language-Team: Sardinian <https://translate.ubports.com/projects/ubports/"
 "libertine/sc/>\n"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../python/libertine/launcher/config.py:135
 msgid "Set an environment variable"
-msgstr ""
+msgstr "Cunfigura una variàbile de ambiente"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
