@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-10-10 06:43+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2020-11-01 19:29+0000\n"
+"Last-Translator: Iñaki Aliaga <him@mint.lgbt>\n"
 "Language-Team: Spanish <https://translate.ubports.com/projects/ubports/"
 "libertine/es/>\n"
 "Language: es\n"
@@ -308,11 +308,13 @@ msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
 msgstr ""
+"Búsqueda para '{query_string}' en el contenedor '{container_id}' terminó con "
+"un estado diferente a cero"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "Soporte i386 multiarquitectura ya está {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
