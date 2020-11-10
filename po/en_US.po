@@ -223,7 +223,7 @@ msgstr ""
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
 msgid ""
-"The container distribution needs to match the host ditribution for chroot "
+"The container distribution needs to match the host distribution for chroot "
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""

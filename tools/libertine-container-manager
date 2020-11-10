@@ -83,7 +83,7 @@ class LibertineContainerManager(object):
             host_distro = self.host_info.get_host_distro_release()
 
             if args.distro != host_distro:
-                utils.get_logger().error(utils._("The container distribution needs to match the host ditribution for chroot"
+                utils.get_logger().error(utils._("The container distribution needs to match the host distribution for chroot"
                                                    " based containers. Please either use '{host_distro}' or"
                                                    " omit the -d/--distro option.").format(host_distro=host_distro))
                 sys.exit(1)
