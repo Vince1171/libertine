@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2020-07-14 18:09+0000\n"
+"PO-Revision-Date: 2020-11-28 09:25+0000\n"
 "Last-Translator: M.Sugahara <equaaqua@hotmail.com>\n"
 "Language-Team: Japanese <https://translate.ubports.com/projects/ubports/"
 "libertine/ja/>\n"
@@ -81,11 +81,11 @@ msgstr "環境変数を設定"
 
 #: ../python/libertine/launcher/config.py:138
 msgid "exec line"
-msgstr ""
+msgstr "実行行"
 
 #: ../python/libertine/launcher/config.py:142
 msgid "Must specify an exec line"
-msgstr ""
+msgstr "実行行を指定してください"
 
 #: ../tools/libertine-shell:41
 msgid "Launch an SSH session within a lxc/lxd Libertine container"
@@ -117,7 +117,7 @@ msgstr "{} の公開鍵が見つかりませんでした。"
 
 #: ../tools/libertine-shell:111
 msgid "Configured identity file or public key matching '{}' do not exist."
-msgstr ""
+msgstr "設定された公開鍵ファイル {} は存在しません。"
 
 #: ../tools/libertine-shell:139
 msgid ""
@@ -125,12 +125,14 @@ msgid ""
 "You can use the following command to generate an appropriate key:\n"
 "\tssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 msgstr ""
+"SSH 鍵がセットアップされていないようです。鍵を生成した後、再度お試しください。鍵の生成には次のコマンドをお使いください:\n"
+"\t ssh-keygen -t rsa -b 4096 -C 'your_email@example.com'"
 
 #: ../tools/libertine-shell:160
 msgid ""
 "Always use '{}' as identity file and username '{}' when connecting to '{}'? "
 "[Yn]"
-msgstr ""
+msgstr "鍵ファイル {} とユーザー {} を {} に接続する時いつも使用しますか？ [Yn]"
 
 #: ../tools/libertine-shell:163
 msgid "Always use '{}' as identity file when connecting to '{}'? [Yn]"
@@ -174,20 +176,20 @@ msgstr "{} のIPアドレスを取得できませんでした"
 
 #: ../tools/libertine-shell:242
 msgid "OK to add public key '{}' to container '{}'? [Yn]"
-msgstr ""
+msgstr "公開鍵 {} をコンテナ {} に追加してもよろしいですか？[Yn]"
 
 #: ../tools/libertine-shell:244
 msgid "Public key must be added to container to continue."
-msgstr ""
+msgstr "続けるには、公開鍵をコンテナに追加してください。"
 
 #: ../tools/libertine-shell:248
 msgid "Failed to add public key to container's authorized keys."
-msgstr ""
+msgstr "公開鍵をコンテナの承認済み鍵に追加できませんでした。"
 
 #: ../tools/libertine-launch:30
 #, python-brace-format
 msgid "No container with id '{container_id}'"
-msgstr ""
+msgstr "ID {container_id} のコンテナが存在しません"
 
 #: ../tools/libertine-launch:38 ../tools/libertine-container-manager:43
 #, python-brace-format
@@ -195,23 +197,25 @@ msgid ""
 "Backend for container '{id}' not installed. Install 'python3-libertine-"
 "{type}' and try again."
 msgstr ""
+"コンテナ {id} 用のバックエンドがインストールされていません。python3-libertine-{type} "
+"をインストールしてから再度お試しください。"
 
 #: ../tools/libertine-container-manager:59
 #, python-brace-format
 msgid "Invalid distro {distro}"
-msgstr ""
+msgstr "ディストリビューション {distro} は不正です"
 
 #: ../tools/libertine-container-manager:63
 #, python-brace-format
 msgid "Container id '{container_id}' is already used."
-msgstr ""
+msgstr "コンテナID {container_id} はすでに使用されています。"
 
 #: ../tools/libertine-container-manager:66
 #, python-brace-format
 msgid ""
 "Container id '{container_id}' invalid. ID must be of form ([a-z0-9][a-"
 "z0-9+.-]+)."
-msgstr ""
+msgstr "コンテナID {container_id} が不正です。IDは ([a-z0-9][a-z0-9+.-]+) の形式でなくてはいけません。"
 
 #: ../tools/libertine-container-manager:75
 #, python-brace-format
@@ -219,6 +223,7 @@ msgid ""
 "System kernel does not support {container_type} type containers. Please "
 "either use chroot or omit the -t option."
 msgstr ""
+"システムカーネルは {container_type} コンテナをサポートしていません。chroot を使用するか、-t オプションを省略してください。"
 
 #: ../tools/libertine-container-manager:86
 #, python-brace-format
@@ -227,62 +232,62 @@ msgid ""
 "based containers. Please either use '{host_distro}' or omit the -d/--distro "
 "option."
 msgstr ""
+"chroot コンテナでは、コンテナとホストのディストリビューションは一致していなくてはいけません。{host_distro} を利用するか、-d/--"
+"distro オプションを省略してください。"
 
 #: ../tools/libertine-container-manager:98
 msgid ""
 "Enter password for your user in the Libertine container or leave blank for "
 "no password:"
-msgstr ""
+msgstr "Libertine コンテナのユーザーのパスワードを入力してください。そのままにすると、空のパスワードを使用します。"
 
 #: ../tools/libertine-container-manager:116
-#, fuzzy
-#| msgid "Delete Container"
 msgid "Failed to create container"
-msgstr "コンテナを削除"
+msgstr "コンテナを作成できませんでした"
 
 #: ../tools/libertine-container-manager:123
 #, python-brace-format
 msgid "Failed to create container: '{error}'"
-msgstr ""
+msgstr "コンテナを作成できませんでした: '{error}'"
 
 #: ../tools/libertine-container-manager:167
 #, python-brace-format
 msgid "{package_name} does not exist."
-msgstr ""
+msgstr "{package_name} は存在しません。"
 
 #: ../tools/libertine-container-manager:175
 #, python-brace-format
 msgid "Package '{package_name}' is already installed."
-msgstr ""
+msgstr "パッケージ '{package_name}' はすでにインストールされています。"
 
 #: ../tools/libertine-container-manager:183
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to install in container '{container_id}'"
-msgstr ""
+msgstr "パッケージ '{package_name}' をコンテナ '{container_id}' にインストールできませんでした"
 
 #: ../tools/libertine-container-manager:220
 #, python-brace-format
 msgid "Package '{package_name}' is not installed."
-msgstr ""
+msgstr "パッケージ '{package_name}' はインストールされていません。"
 
 #: ../tools/libertine-container-manager:225
 #, python-brace-format
 msgid ""
 "Package '{package_name}' failed to be removed from container '{container_id}'"
-msgstr ""
+msgstr "パッケージ '{package_name}' をコンテナ '{container_id}' から削除できませんでした"
 
 #: ../tools/libertine-container-manager:240
 #, python-brace-format
 msgid ""
 "Search for '{query_string}' in container '{container_id}' exited with non-"
 "zero status"
-msgstr ""
+msgstr "コンテナ '{container_id}' 内の検索 '{query_string}' が異常終了しました"
 
 #: ../tools/libertine-container-manager:299
 #, python-brace-format
 msgid "i386 multiarch support is already {enabled_or_disabled}"
-msgstr ""
+msgstr "i386 multiarch サポートは {enabled_or_disabled} になっています"
 
 #: ../tools/libertine-container-manager:309
 msgid ""
