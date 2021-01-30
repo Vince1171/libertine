@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: libertine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-18 16:43-0600\n"
-"PO-Revision-Date: 2021-01-03 12:32+0000\n"
-"Last-Translator: FlavioMala <flavio.malatino@post.com>\n"
+"PO-Revision-Date: 2021-01-30 11:27+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://translate.ubports.com/projects/ubports/"
 "libertine/it/>\n"
 "Language: it\n"
@@ -170,8 +170,8 @@ msgid ""
 "'{}' is a '{}' container. Only 'lxd' or 'lxc' containers are able to use "
 "this tool."
 msgstr ""
-"'{}' è un container di '{}'. Solo i container 'lxd' o 'lxc' possono "
-"utilizzare questo strumento."
+"'{}' è un container '{}'. È possibile utilizzare questo strumento solo con "
+"container 'lxd' o 'lxc'."
 
 #: ../tools/libertine-shell:208
 msgid "openssh-server not detected in container '{}'. Install now? [Yn]"
@@ -319,12 +319,11 @@ msgid "i386 multiarch support is already {enabled_or_disabled}"
 msgstr "Il supporto per multiarch i386 è già {enabled_or_disabled}"
 
 #: ../tools/libertine-container-manager:309
-#, fuzzy
 msgid ""
 "Configure archive called with no archive name. See configure --help for "
 "usage."
 msgstr ""
-"Configure archive chiamata senza nome dell'archivio. Vedi configure --help "
+"Configure archive utilizzato senza nome dell'archivio. Vedi configure --help "
 "per l'utilizzo."
 
 #: ../tools/libertine-container-manager:317
@@ -347,6 +346,8 @@ msgid ""
 "Configure bind-mounts called without mount path. See configure --help for "
 "usage"
 msgstr ""
+"Configure bind-mounts utilizzato senza mount path. Vedi configure --help per "
+"l'utilizzo"
 
 #: ../tools/libertine-container-manager:347
 #, python-brace-format
@@ -359,7 +360,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:353
 msgid "/media mounts not currently supported in lxc."
-msgstr "/media mounts  attualmente non supportato in lxc."
+msgstr "Il mounting in /media non è al momento supportato per lxc."
 
 #: ../tools/libertine-container-manager:356
 #, python-brace-format
@@ -406,7 +407,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:443
 msgid "Classic X application support for Unity 8"
-msgstr ""
+msgstr "Supporto per le classiche applicazioni X per Unity 8"
 
 #: ../tools/libertine-container-manager:446
 #, python-brace-format
@@ -437,7 +438,7 @@ msgstr "Tipo di contenitore Libertine da creare. 'lxd', 'lxc' o 'chroot'."
 
 #: ../tools/libertine-container-manager:474
 msgid "Ubuntu distro series to create."
-msgstr ""
+msgstr "Serie di distribuzioni Ubuntu da creare."
 
 #: ../tools/libertine-container-manager:477
 msgid "User friendly container name."
@@ -469,7 +470,7 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:495
 msgid "Destroy any existing environment entirely."
-msgstr "Distruggi completamente tutti gli ambienti esistenti."
+msgstr "Distruggi tutti gli environment esistenti completamente."
 
 #: ../tools/libertine-container-manager:498
 #: ../tools/libertine-container-manager:516
@@ -507,6 +508,8 @@ msgstr ""
 #: ../tools/libertine-container-manager:537
 msgid "No dialog mode. Use text-based frontend during debconf interactions."
 msgstr ""
+"Nessuna modalità di dialogo. Usare un'interfaccia testuale per interagire "
+"con debconf."
 
 #: ../tools/libertine-container-manager:525
 msgid "Remove a package in the specified Libertine container."
@@ -530,14 +533,18 @@ msgstr ""
 
 #: ../tools/libertine-container-manager:547
 msgid "String to search for in the package cache. Required."
-msgstr ""
+msgstr "Stringa da cercare nella cache del pacchetto. Richiesto."
 
 #: ../tools/libertine-container-manager:556
+#, fuzzy
 msgid ""
 "Update the packages in the Libertine container.  Also updates the "
 "container's locale and installs necessary language packs if the host's "
 "locale has changed."
 msgstr ""
+"Aggiorna i pacchetti nel contenitore Libertine. Aggiorna anche il locale del "
+"contenitore e installa i pacchetti di lingua se il locale dell'host è "
+"cambiato."
 
 #: ../tools/libertine-container-manager:566
 msgid "List all Libertine containers."
@@ -606,6 +613,8 @@ msgid ""
 "File containing the key used to sign the given archive. Useful for third-"
 "party or private archives."
 msgstr ""
+"File che contiene la chiave per firmare l'archivio assegnato. Utile per "
+"archivi di terze parti o privati."
 
 #: ../tools/libertine-container-manager:627
 msgid "Additional bind-mounts"
@@ -624,8 +633,9 @@ msgid "Mount path"
 msgstr "Percorso di mount"
 
 #: ../tools/libertine-container-manager:636
+#, fuzzy
 msgid "The absolute host path to bind-mount."
-msgstr ""
+msgstr "Il percorso assoluto dell'host del bind-mount."
 
 #: ../tools/libertine-container-manager:638
 msgid "Freeze container support"
@@ -640,6 +650,8 @@ msgid ""
 "Enables or disables freezing of LXC/LXD containers when not in use. When "
 "disabled, the container will stop."
 msgstr ""
+"Abilita o disabilita l'ibernazione dei contenitori LXC/LXD quando non in "
+"uso. Se disabilitata, il contenitore verrà fermato."
 
 #: ../tools/libertine-container-manager:666
 msgid "Set the default container."
@@ -651,7 +663,7 @@ msgstr "Id contenitore"
 
 #: ../tools/libertine-container-manager:673
 msgid "Clear the default container."
-msgstr "Pulisci il contenitore di base."
+msgstr "Pulisci il contenitore predefinito."
 
 #: ../tools/libertine-container-manager:679
 msgid ""
